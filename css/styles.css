@@ -1,0 +1,316 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative; }
+
+.navbar-menu {
+  margin-bottom: 0px; }
+
+.navbar-blue {
+  background-color: #296ad4;
+  color: #fff;
+  display: none; }
+  .navbar-blue a {
+    color: #fff; }
+
+.active {
+  background-color: #000; }
+  .active a {
+    color: #fff; }
+
+.navbar-nav > li a:hover {
+  background-color: #000; }
+
+.navbar .logo {
+  display: inline;
+  float: left;
+  width: 3em;
+  position: relative;
+  top: 5px;
+  left: 5px; }
+
+.skill {
+  min-height: 10vh;
+}
+.skill h3 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+@media (min-width: 768px) {
+  .navbar #name {
+    margin-left: 0px; } }
+.navbar .menu {
+  float: right; }
+  @media (max-width: 767px) {
+    .navbar .menu {
+      float: none; }
+      .navbar .menu .icon {
+        float: right; } }
+
+#top-section {
+  width: 100%;
+  background-image: url("../img/2.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: fixed;
+  color: #000; }
+  #top-section .top .slogan-text {
+    top: 5em;
+    position: relative;
+    margin: 50px 10px auto 10px; }
+    #top-section .top .slogan-text .img-profile {
+      width: 15%; }
+    #top-section .top .slogan-text p {
+      position: relative;
+      top: 50px;
+      font-size: 4em;
+      display: inline-block; }
+    #top-section .top .slogan-text h5 {
+      position: relative;
+      top: 40px;
+      font-size: 2.5em; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #top-section .top .slogan-text {
+      top: 35px; }
+      #top-section .top .slogan-text .img-profile {
+        width: 25%; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #top-section .top .slogan-text {
+      top: 105px; }
+      #top-section .top .slogan-text .img-profile {
+        width: 25%; } }
+  @media (min-width: 400px) and (max-width: 767px) {
+    #top-section .top .slogan-text .img-profile {
+      width: 40%; }
+    #top-section .top .slogan-text p {
+      top: 20px;
+      font-size: 3.5em; }
+    #top-section .top .slogan-text h5 {
+      font-size: 2em;
+      top: 15px; } }
+  @media (max-width: 399px) {
+    #top-section .top .slogan-text .img-profile {
+      width: 35%; }
+    #top-section .top .slogan-text p {
+      top: 10px;
+      font-size: 2.5em; }
+    #top-section .top .slogan-text h5 {
+      top: 0px;
+      font-size: 1.2em; } }
+
+#education-section {
+  background-color: #ECF0F1;
+  width: 100%;
+  color: #000; }
+  #education-section .education .title-education {
+    left: 75px;
+    top: 170px; }
+    #education-section .education .title-education .img-education {
+      width: 8em;
+      display: inline-block;
+      left: -55px;
+      position: absolute;
+      top: -60px;
+      -ms-transform: rotate(-25deg);
+      /* IE 9 */
+      -webkit-transform: rotate(-25deg);
+      /* Safari */
+      transform: rotate(-25deg);
+      /* Standard syntax */ }
+  #education-section .education .list-education {
+    top: 180px; }
+    #education-section .education .list-education .years-study {
+      line-height: 1;
+      font-size: 2em;
+      margin-left: -10px; }
+    #education-section .education .list-education .education-years {
+      height: 5em;
+      border-left: solid 3px #A52023; }
+      #education-section .education .list-education .education-years .years {
+        font-size: 3em;
+        font-variant: all-petite-caps; }
+    #education-section .education .list-education .school {
+      margin-top: 20px;
+      font-size: 1.7em;
+      position: relative;
+      top: -15px; }
+    #education-section .education .list-education .carrer {
+      font-size: 1.3em;
+      position: relative;
+      top: -20px; }
+  @media (min-width: 401px) and (max-width: 767px) {
+    #education-section .education .title-education {
+      top: 70px; }
+      #education-section .education .title-education .img-education {
+        width: 4em;
+        right: 20px;
+        top: 12px; }
+    #education-section .education .list-education {
+      top: 80px; }
+      #education-section .education .list-education .school {
+        font-size: 1.5em; }
+      #education-section .education .list-education .carrer {
+        font-size: 1.2em; } }
+  @media (max-width: 400px) {
+    #education-section .education .title-education {
+      top: 40px; }
+      #education-section .education .title-education h1 {
+        font-size: 2em;
+        display: inline-block;
+        margin-bottom: 20px; }
+      #education-section .education .title-education .img-education {
+        display: none; }
+    #education-section .education .list-education {
+      top: 30px; }
+      #education-section .education .list-education .education-years .years {
+        font-size: 2.8em; }
+      #education-section .education .list-education .school {
+        font-size: 1.2em; }
+      #education-section .education .list-education .carrer {
+        font-size: 1em; } }
+
+#software-section {
+  width: 100%;
+  background-color: #2980B9;
+  color: #ECF0F1; }
+  #software-section .software-container {
+    top: 80px;
+    position: relative; }
+    #software-section .software-container .title-software {
+      margin-bottom: 3%; }
+    #software-section .software-container .software .icon-software img {
+      width: 5em; }
+    #software-section .software-container .software .progress-bar-software {
+      padding-top: 4%;
+      height: 7em; }
+      #software-section .software-container .software .progress-bar-software .progress {
+        border-radius: 10px; }
+      #software-section .software-container .software .progress-bar-software .progress-bar-soft {
+        background-color: #3498DB; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #software-section .software-container {
+      top: 45px; }
+      #software-section .software-container .software .icon-software img {
+        width: 4em; }
+      #software-section .software-container .software .progress-bar-software {
+        padding-top: 7%;
+        height: 5em; }
+        #software-section .software-container .software .progress-bar-software .progress {
+          height: 20px; }
+        #software-section .software-container .software .progress-bar-software .progress-bar-soft p {
+          font-size: 1.5em;
+          line-height: 20px; } }
+  @media (min-width: 600px) and (max-width: 767px) {
+    #software-section .software-container {
+      top: 45px; }
+      #software-section .software-container .s1 {
+        margin-left: 10%; }
+      #software-section .software-container .s2 {
+        margin-right: 10%; }
+      #software-section .software-container .software {
+        width: 90%;
+        margin-bottom: 30px; }
+        #software-section .software-container .software .progress-bar-software {
+          padding-top: 7%;
+          height: 6em; } }
+  @media (min-width: 350px) and (max-width: 599px) {
+    #software-section .software-container {
+      top: 45px; }
+      #software-section .software-container .s1 {
+        margin-left: 5%; }
+      #software-section .software-container .s2 {
+        margin-right: 5%; }
+      #software-section .software-container .software {
+        width: 95%;
+        margin-bottom: 15px; }
+        #software-section .software-container .software .progress-bar-software {
+          padding-top: 7%;
+          height: 5.4em; } }
+  @media (max-width: 349px) {
+    #software-section .software-container {
+      top: 45px; }
+      #software-section .software-container .s1 {
+        margin-left: 3%; }
+      #software-section .software-container .s2 {
+        margin-right: 3%; }
+      #software-section .software-container .software {
+        width: 97%;
+        margin-bottom: 15px; }
+        #software-section .software-container .software .icon-software img {
+          width: 3em; }
+        #software-section .software-container .software .progress-bar-software {
+          padding-top: 5%;
+          height: 4.4em; } }
+
+#skills-section {
+  color: #EDFFEB;
+  background-color: #45BF55; }
+  #skills-section .skills-section {
+    position: relative;
+    top: 70px; }
+    #skills-section .skills-section .separator {
+      border: 0;
+      height: 0;
+      /* Firefox... */
+      box-shadow: 0 0 10px 1px #fff;
+      position: relative;
+      top: 1em;
+      width: 60%; }
+    #skills-section .skills-section .skill-level .skill-circle {
+      background-color: #FFE30D; }
+  @media (max-width: 767px) {
+    #skills-section .skills-section .separator {
+      width: 90%; }
+    #skills-section .skills-section .skill h3 {
+      font-size: 1.2em; }
+    #skills-section .skills-section .skill-level .skill-circle {
+      font-size: .3em;
+      top: -10px;
+      position: relative; } }
+
+#contact-section {
+  background-color: #FFFF9D; }
+  #contact-section .contact-section {
+    position: relative;
+    top: 120px; }
+    #contact-section .contact-section .title-contact {
+      position: relative;
+      text-align: center;
+      margin-bottom: 2em; }
+      #contact-section .contact-section .title-contact h1 {
+        font-size: 4em; }
+    #contact-section .contact-section .img-contact {
+      position: relative;
+      display: none; }
+    #contact-section .contact-section .contact-option {
+      position: relative;
+      margin-top: 10px;
+      height: 7em; }
+      #contact-section .contact-section .contact-option a {
+        font-size: 3em;
+        color: #49AFEB; }
+        #contact-section .contact-section .contact-option a:active, #contact-section .contact-section .contact-option a:visited {
+          color: #49AFEB; }
+      #contact-section .contact-section .contact-option img {
+        width: 5em; }
+    @media (max-width: 767px) {
+      #contact-section .contact-section .title-contact {
+        text-align: left; }
+        #contact-section .contact-section .title-contact h1 {
+          font-size: 2em; }
+      #contact-section .contact-section .img-contact {
+        width: 3em;
+        display: inline-block;
+        top: -10px;
+        right: -20%; }
+      #contact-section .contact-section .contact-option {
+        left: 10px;
+        height: 3em; }
+        #contact-section .contact-section .contact-option a {
+          font-size: 1.5em; }
+        #contact-section .contact-section .contact-option img {
+          width: 2em; } }
+
+/*# sourceMappingURL=styles.css.map */
